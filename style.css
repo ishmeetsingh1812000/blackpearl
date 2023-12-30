@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#hover:hover {
+  color: orange !important;
+}
+
+.tswu {
+  background-image: url(Images/Section-1/slider-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tswu-car-1 {
+  left: 120px;
+  top: 35px;
+}
+
+.carousel-div {
+  background-color: white;
+  width: fit-content;
+}
+
+.search-btn {
+  width: 50%;
+  height: 25%;
+  border: 1px solid lightgray;
+}
+
+.search-btn:focus {
+  outline-color: orange;
+}
+
+.search-btn-div {
+  right: 22.5rem;
+  background-color: white;
+}
+
+#oneaaaaa,
+.two {
+  font-size: 20px;
+}
+
+@media (min-width: 990px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-section {
+    width: 65%;
+    background-color: orange;
+    top: 20px;
+    left: 355px;
+  }
+
+  .navbar-section::after {
+    content: "";
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    background-color: orange;
+    top: 0;
+    left: -10px;
+    transform: skewX(10deg);
+  }
+}
+
+@media (max-width: 1145px) {
+  .navbar-section {
+    width: 75%;
+    left: 200px;
+  }
+}
+
+@media (max-width: 630px) {
+  .first-header {
+    display: none !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .tswu-car-1 {
+    display: none;
+  }
+
+  .tswv-carousel {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+  }
+
+  .tswv-carousel-1 {
+    height: 90vh;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .tswu-car-1 {
+    display: none;
+  }
+
+  .tswv-carousel {
+    height: 70vh;
+  }
+
+  .tswv-carousel-1 {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 1007px) {
+  .off-search {
+    display: none;
+  }
+}
+
+.about-1 {
+  top: -10px;
+  height: 95%;
+}
+
+.about-2 {
+  top: 152px;
+  left: 250px;
+  height: 55%;
+  width: 15%;
+}
+
+.experience-text-round {
+  top: 50px;
+  left: 225px;
+  animation: rounded linear 10s infinite;
+}
+
+@keyframes rounded {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.location-marker {
+  top: 95px;
+  left: 275px;
+}
+
+.section-2-slanted-div {
+  height: 100%;
+  width: 175px;
+  transform: skewX(-20deg);
+  background-color: orange;
+  top: 0;
+  left: 175px;
+}
+
+@media (max-width: 992px) {
+  .about-1 {
+    height: 60%;
+    top: 75px;
+  }
+
+  .section-2-slanted-div {
+    left: 75px;
+    height: 73%;
+  }
+
+  .about-2 {
+    height: 40%;
+    width: 25%;
+    top: 310px;
+    left: 105px;
+  }
+
+  .experience-text-round {
+    top: 120px;
+    height: 30%;
+    left: 60px;
+  }
+
+  .location-marker {
+    top: 160px;
+    left: 115px;
+    height: 15%;
+  }
+}
+
+@media (max-width: 770px) {
+  .section-2-img {
+    display: none;
+  }
+}
+
+.phone {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.phone:hover {
+  color: orange;
+}
+
+.carousel-btn {
+  background-color: orange;
+  border-radius: 3px;
+  padding: 10px 25px;
+}
+
+.carousel-btn:hover {
+  transition: 0.5s;
+  box-shadow: inset 150px 0 0 0 black;
+}
+
+.carousel-icon:hover {
+  color: orange;
+}
+
+.wwo {
+  background-image: url("Images/Section-3/slider-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 79.9vh;
+}
+
+.wwo-indicators {
+  width: 20px !important;
+  height: 1px !important;
+  background: orange !important;
+}
+
+.rm {
+  position: relative;
+  z-index: 2;
+}
+
+.rm:hover,
+.byt:hover {
+  border: 1px solid transparent;
+  box-shadow: inset 150px 0 0 0 black;
+}
+
+.cwcp {
+  left: -99px;
+  top: 65px;
+}
+
+.cwcn {
+  right: -100px;
+  top: 65px;
+}
+
+#ci-wwo {
+  top: 450px;
+}
+
+@media (min-width: 760px) and (max-width: 960px) {
+  .wwo {
+    height: 65vh;
+  }
+
+  .cwcp,
+  .cwcn {
+    display: none;
+  }
+}
+
+@media (max-width: 762px) {
+  .c-2,
+  .c-3 {
+    display: none;
+  }
+
+  .wwo {
+    height: 94vh;
+  }
+
+  .cwcp,
+  .cwcn {
+    display: none;
+  }
+
+  #ci-wwo {
+    top: 550px;
+  }
+}
+
+.ob {
+  margin-top: 300px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.ob-slanted-div {
+  height: 75px;
+  width: 100%;
+}
+
+.ob::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 75px;
+  background-color: white;
+  top: 0;
+  right: -60px;
+  transform: skewX(50deg);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.car-2 {
+  left: -270px;
+}
+
+.name {
+  right: 30px;
+}
+
+.destination {
+  right: 20px;
+}
+
+.time {
+  padding: 17px 71px;
+}
+
+.byt:hover {
+  border: 1px solid transparent;
+  box-shadow: inset 225px 0 0 0 black;
+}
+
+.vertical-div {
+  height: 100%;
+  width: 22%;
+  background-color: orange;
+  top: 0;
+}
+
+.date {
+  padding: 17px 41px;
+}
+
+@media (max-width: 992px) {
+  .on-row-1,
+  .vertical-div {
+    display: none;
+  }
+
+  .ob {
+    margin-top: 575px;
+  }
+}
+
+@media (max-width: 770px) {
+  input {
+    width: 100%;
+  }
+
+  .byt {
+    width: 100%;
+  }
+}
+
+.lgwu:hover {
+  box-shadow: inset 250px 0 0 0 black;
+}
+
+.da-bg-img {
+  background-image: url("Images/Section-6/taxi-background.png");
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  background-size: contain;
+  background-position: center right;
+  background-size: 750px 850px;
+}
+
+.taxi {
+  top: 225px;
+  right: 60px;
+}
+
+.mockup {
+  z-index: -1;
+  bottom: 70px;
+  right: 260px;
+}
+
+.character {
+  right: 100px;
+  top: 160px;
+}
+
+.location {
+  right: 180px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  70% {
+    transform: translateY(-15px);
+  }
+
+  90% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (max-width: 992px) {
+  .da-bg-img div:last-child {
+    display: none;
+  }
+}
+
+.playstore:hover,
+.apple:hover {
+  margin-top: -10px;
+  transition-duration: 0.5s;
+}
+
+.da {
+  margin-top: 100px;
+}
+
+.comments {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-indicators-1 {
+  position: relative;
+  top: 50px;
+  left: -219px;
+}
+
+.ct-indicators {
+  height: 20px !important;
+  width: 20px !important;
+  background-color: orange !important;
+}
+
+.quotes {
+  top: -25px;
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  left: 70%;
+  transform: skewX(-15deg);
+}
+
+.ct {
+  margin-top: 120px;
+}
+
+@media (max-width: 600px) {
+  .carousel-indicators-1 {
+    left: 0;
+  }
+}
+
+.type {
+  top: 196px;
+  border-top-right-radius: 10px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.rm-btn {
+  color: grey;
+}
+
+.rm-btn:hover {
+  color: orange;
+}
+
+.footer {
+  background-image: url("Images/Footer/city-skiline.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer > .container {
+  padding-bottom: 120px;
+}
+
+.truck-footer {
+  position: absolute;
+  animation: mymove 15s infinite;
+  animation-timing-function: linear;
+  bottom: 0.5px;
+}
+
+@keyframes mymove {
+  from {
+    right: -90px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.car-footer {
+  position: absolute;
+  animation: car 20s infinite;
+  animation-timing-function: linear;
+  bottom: 0.5px;
+}
+
+@keyframes car {
+  from {
+    right: -90px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.truck1-footer {
+  position: absolute;
+  animation: truck 20s infinite;
+  animation-timing-function: linear;
+  bottom: 0.5px;
+}
+
+@keyframes truck {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.footer-text {
+  position: relative;
+}
+
+.footer-text::after {
+  content: "";
+  position: absolute;
+  border: 2px solid orange;
+  width: 75px;
+  bottom: -5px;
+  left: 0px;
+}
+
+@media (max-width: 992px) {
+  .cta-men {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .type {
+    top: 156px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .type {
+    top: 183px;
+  }
+}
+
+@media (max-width: 768px) {
+  .type {
+    top: 303px;
+  }
+}
+
+@media (max-width: 575px) {
+  .type {
+    display: none;
+  }
+}
+
+.cft {
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 80% 100%, 0 100%);
+}
+
+input[placeholder="Your Email"] {
+  clip-path: polygon(0% 0%, 90% 0, 100% 30%, 100% 100%, 0 100%);
+  border: none;
+}
+
+.ns-btn {
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+}
+
+@media (max-width: 987px) {
+  .navbar-section {
+    width: 100%;
+    left: 0;
+    background: white;
+    z-index: 1;
+  }
+
+  .second-header {
+    display: none !important;
+  }
+
+  .nav-button {
+    display: none !important;
+  }
+}
